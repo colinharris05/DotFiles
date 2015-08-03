@@ -1,0 +1,25 @@
+[ui]
+username = Colin Harris <colinharris05@gmail.com>
+
+[extensions]
+color =
+fbamend = ~/devtools/hg-experimental/fbamend.py
+histedit =
+rebase =
+shelve =
+smartlog = ~/devtools/hg-experimental/smartlog.py
+strip =
+
+[color]
+status.added = green bold
+status.deleted = cyan bold
+status.ignored = black bold
+status.modified = magenta bold
+status.removed = red bold
+status.unknown = blue bold
+
+[alias]
+sl = smartlog --template '{rev} {author|user}   \x1B[32m{bookmarks}\x1B[0m\n{desc|firstline}\n\n'
+
+[merge-tools]
+emacs.args = -q --eval "(ediff-merge-with-ancestor \""$local"\" \""$other"\" \""$base"\" nil \""$output"\")"
