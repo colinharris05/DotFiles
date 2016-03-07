@@ -1,5 +1,7 @@
 source ~/.bashrc
 
+alias ho="cd ~/Code/github/helpout/"
+
 PS1="\u$ "
 alias ll="ls -lahG"
 
