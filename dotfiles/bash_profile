@@ -1,6 +1,7 @@
 source ~/.bashrc
 
-alias ho="cd ~/Code/github/helpout/"
+alias site="cd ~/General/Code/github/colinharris05.github.io/"
+alias gh="cd ~/General/Code/github/"
 
 PS1="\u$ "
 alias ll="ls -lahG"
