@@ -1,0 +1,17 @@
+" Add spell checker
+:set spell spelllang=en_us
+
+" Add matching closing brackets
+inoremap { {}<ESC>ha
+
+set term=xterm-256color
+
+" Add syntax and color theme
+syntax on
+color desert
+
+" Tabs to 2 spaces
+set tabstop=2 shiftwidth=2 expandtab
+
+" Show line numbers
+set number
