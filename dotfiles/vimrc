@@ -1,10 +1,5 @@
-" Add spell checker
-set spell spelllang=en_us
-
 " Add matching closing brackets
 inoremap { {}<ESC>ha
-
-set term=xterm-256color
 
 " Add syntax and color theme
 syntax on
